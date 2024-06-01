@@ -1,4 +1,4 @@
-/* Estilos de toda a página */
+/* Estilo geral */
 * {
   margin: 0;
   padding: 0;
@@ -79,33 +79,23 @@ header a {
   gap: 10px;
 }
 
-.container .list .list-item .buttons button {
+.container .list .list-item .buttons a {
   border: none;
   border-radius: 5px;
   letter-spacing: 3px;
   background-color: #fff;
   font-weight: 600;
-  cursor: pointer;
   text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 0 10px 10px;
 }
 
-.container .list .list-item .buttons button:hover {
+.container .list .list-item .buttons a:hover {
   background-color: transparent;
   border: 1px solid #ffffff87;
   color: #fff;
   transition: 0.7s;
-}
-
-.container .list .list-item .buttons button:nth-child(2) {
-  background-color: transparent;
-  border: 1px solid #ffffff87;
-  color: #fff;
-}
-
-.container .list .list-item .buttons button:nth-child(2):hover {
-  background-color: #fff;
-  border: 1px solid #ffffff87;
-  color: #000;
 }
 
 .container .thumb {
