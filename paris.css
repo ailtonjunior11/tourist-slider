@@ -1,0 +1,55 @@
+/* Estilo geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(./assets/paris-background.jpg);
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  position: relative;
+  margin: auto;
+}
+
+header a {
+  color: #fff;
+  margin-right: 35px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 80px 0 0 100px;
+}
+
+.container h2 {
+  font-size: 2.8em;
+}
+
+.container p {
+  padding-right: 20%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.container .cultura h2 {
+  margin-top: 40px;
+}
