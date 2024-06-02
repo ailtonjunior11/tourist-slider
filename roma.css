@@ -55,6 +55,7 @@ header a:hover {
   font-size: 18px;
   line-height: 25px;
   cursor: pointer;
+  text-shadow: 3px 0px 2px #000;
 }
 
 .container .title1 {
