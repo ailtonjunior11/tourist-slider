@@ -29,6 +29,11 @@ header {
 header a {
   color: #fff;
   margin-right: 35px;
+  font-weight: 500;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 /* Estilos do container principal da página */
