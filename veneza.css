@@ -31,6 +31,11 @@ header {
 header a {
   color: #fff;
   margin-right: 35px;
+  font-weight: 500;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -39,22 +44,28 @@ header a {
   margin: 70px 0 0 100px;
 }
 
-.container h2 {
+.container .title,
+.title1 {
   font-size: 2.8em;
 }
 
-.container p {
-  padding-right: 10%;
+.container .description {
+  padding-right: 21%;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
 }
 
-.container .cultura h2 {
+.container .title1 {
   margin-top: 25px;
 }
 
-.container h3 {
+.container .title2 {
   font-size: 30px;
   margin-top: 20px;
+}
+
+.container .description:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
